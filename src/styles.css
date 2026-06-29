@@ -21,6 +21,10 @@ h2 {
   color: #c0392b; /* червоний акцент */
 }
 
+.italic {
+  font-style: italic;
+}
+
 .section {
   margin-top: 1rem;
 }
@@ -31,7 +35,15 @@ h2 {
   margin-bottom: 0.75rem;
 }
 
+.experience-item p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 ul.skills-list {
   list-style: square inside;
-  padding: 0;
 }

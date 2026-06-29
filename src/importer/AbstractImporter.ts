@@ -11,8 +11,6 @@ export abstract class AbstractImporter<T> {
     this.render(model);
   }
 
-  // TODO: Реалізуйте ці абстрактні методи в підкласі:
-
   /**
    * Валідує вхідні дані перед обробкою
    */
